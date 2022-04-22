@@ -1,0 +1,109 @@
+
+body{
+    margin: 0px;
+}
+
+.contenedor-navegacion{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(24, 23, 23);
+
+}
+.lista-navegacion{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.logo{
+    width: 100px;
+}
+.lista-nombre{
+    margin-right: 30px;
+}
+.contenedor-anuncio{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+video{
+    width: 100%;
+    
+}
+.anuncio-texto{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+.anuncio-imagen{
+
+}
+
+.pelicula-anuncio{
+    width: 300px;
+    height: auto;
+}
+.pelicula{
+    width: 200px;
+    height: 300px;
+}
+.pelimun{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+.suscribirse{
+    background-color: red;
+    width: 150px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.contenedor-categoria{
+    background-color: #145c89;
+    padding: 20px;
+}
+.categoria{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.categoria-a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+}
+.contenedor-pelicula{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px 50px;
+}
+.categoria-peli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 10px;
+    padding: 5px;
+    border: white solid;
+}
+a{
+    color: white;
+    text-decoration: none;
+   
+}
+.lista{
+    display: flex;
+    align-items: center;
+}
+span{
+    background-color: rgb(160, 41, 20);
+    border-radius: 5px;
+}
